@@ -20,10 +20,7 @@ const CastCardItem = styled.li`
 `;
 
 const CastCardName = styled.p`
-  /* display: flex;
-  gap: 5px;
-  justify-content: baseline;
-  align-items: baseline; */
+  
   font-weight: 700;
   font-size: 16px;
   span {

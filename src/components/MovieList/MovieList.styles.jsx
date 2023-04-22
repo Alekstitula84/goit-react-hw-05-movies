@@ -32,7 +32,7 @@ const ImgWrapper = styled.div`
   height: 300px;
   transition: all 0.3s ease-in-out;
   :hover {
-    background-color: orange;
+    background-color: green;
     opacity: 0.7;
   }
 `;
