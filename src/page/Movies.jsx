@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { getSearchMovie } from 'services/fetchApi';
 import Loader from 'components/Loader/Loader';
 import { useLocation, useSearchParams } from 'react-router-dom';
-import { HomeTitle } from './Home.styled';
+import { HomeTitle } from './Home.styles';
 
 const Movies = () => {
   const [searchParams, setSearchParams] = useSearchParams();

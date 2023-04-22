@@ -1,6 +1,6 @@
 const { Suspense } = require('react');
 const { Outlet } = require('react-router-dom');
-const { Container, Header, StyledLink, Nav } = require('./Layout.styles');
+const { Container, Header, StyledLink, Nav } = require('./Layout.styled');
 
 const Layout = () => {
   return (

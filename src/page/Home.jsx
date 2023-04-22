@@ -2,7 +2,7 @@ import MovieList from 'components/MovieList/MovieList';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { getPopularMovies } from 'services/fetchApi';
-import { HomeTitle } from './Home.styled';
+import { HomeTitle } from './Home.styles';
 
 const Home = () => {
   const [films, setFilms] = useState([]);

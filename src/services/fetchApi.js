@@ -18,7 +18,7 @@ const getSearchMovie = async query => {
 const getMovieDetails = async movieId => {
   const apiConfig = `${URL}/movie/${movieId}?api_key=${KEY}`;
   const response = await axios.get(apiConfig);
-  // console.log(response.data);
+  console.log(response.data);
   return response.data;
 };
 
